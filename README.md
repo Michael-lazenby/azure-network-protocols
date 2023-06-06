@@ -64,7 +64,7 @@ The next step of my project was to stop the continous ping requests from my wind
 <h3>DNS traffic monitoring</h3>
 <img src="https://i.imgur.com/UB7QZNv.png" width="80%" alt="dns"/>
 <p>
-I used nslookup to send a DNS request to google and observed the response through wireshark. I made a DNS query to google and recieved a response containing an IPv6 and IPv4 addresses.
+I used nslookup to send a DNS query to google and observed the response through wireshark. I made a DNS query to google and recieved a response containing an IPv6 and IPv4 addresses.
 <br />
 
 <p>
