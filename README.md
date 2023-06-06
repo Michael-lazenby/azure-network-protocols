@@ -54,14 +54,11 @@ I used Wireshark to monitor traffic to monitor packets. For example, I used the 
 The next step of my project was to block contious echo requests through Azure firewall. I did this by going to the Networking section of my second virtual machine which enabled me to change the inbound port rules for my machine. When changing the inbound port rules you are also able to change the priority of the rule which determines which rules are processed first.
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/vbtVvOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<h2>Other Network observations</h2>
-<p>
-The next step of my project was to block contious echo requests through Azure firewall. I did this by going to the Networking section of my second virtual machine which enabled me to change the inbound port rules for my machine. When changing the inbound port rules you are also able to change the priority of the rule which determines which rules are processed first.
-</p>
+<h2>Other port practice</h2>
+<h3>Connecting with SSH</h3>
+<img src="https://i.imgur.com/4RHnH8G.png" width="80%" alt="Disk Sanitization Steps"/>
+<h3>DNS traffic monitoring</h3>
+<img src=:"https://i.imgur.com/UB7QZNv.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <p>
