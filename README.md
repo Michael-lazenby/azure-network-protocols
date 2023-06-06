@@ -38,7 +38,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created two virtual machines to monitor traffic between eachother. The first virtual machine was a windows 10 machine and the second virtual machine was a linux machine. I used RDP(Remote Desktop Protocol) and SSH(Secure Shell) to communicate between the two machines.
+I created two virtual machines one with Windows 10 and another one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
 </p>
 <br />
 
