@@ -27,7 +27,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Created 2 virtual machines, one with Ubuntu and one with Windows 10
 - Connected to the Windows VM using RDP
 - Installed Wireshark on the Windows 10 machine
-- Initiated a continous ping request to the Ubuntu machine, Added inbound port rules in the Ubuntu VM's network security group to deny ICMP traffic, and observed the ping request time out through Wireshark.
+- Initiated a continous ping request to the Ubuntu machine 
+- Added inbound port rules in the Ubuntu VM's network security group to deny ICMP traffic, and observed the ping request time out through Wireshark
 - Removed inbound port rules and watched the ping requests reinitiate through Wireshark
 - Used SSH to gain access to the Ubuntu machine and created a new directory
 - Obsereved DNS and RDP traffic through Wireshark
