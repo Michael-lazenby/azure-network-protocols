@@ -72,6 +72,4 @@ I used nslookup to send a DNS query to google and observed the response through 
 </p>
 
 - tcp.port == 22
-
-
 - udp.port == 53
