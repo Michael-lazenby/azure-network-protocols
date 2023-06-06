@@ -55,7 +55,7 @@ Before starting the lab I had to installed Wireshark. Once Wireshark was downloa
 <br />
 <h2>Blocking inbound ports with port security rules</h2>
 <p>
-The next step of my project was to stop the continous ping requests from my windows VM. I did this by adjusting the inbound port rules for my Ubuntu VM via the Network Security Group settings and I denied traffic from the ICMP port. After observving the ping requests time out because of the changes I to the inbound port rules I changed the settings back to allow inbound traffic from ICMP.
+The next step of my project was to stop the continous ping requests from my windows VM. I did this by adjusting the inbound port rules for my Ubuntu VM via the Network Security Group settings and I denied traffic from the ICMP port. After observing the ping requests time out because of the changes I to the inbound port rules I changed the settings back to allow inbound traffic from ICMP.
 </p>
 <img src="https://i.imgur.com/vbtVvOi.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
