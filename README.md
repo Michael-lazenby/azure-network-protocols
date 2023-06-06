@@ -8,9 +8,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -32,21 +29,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 3
 - Step 4
 
-
-<h2>Actions and Observations</h2>
+<h1>Lab steps </h1>
+<h2>Creating virtual machines</h2>
 <p>
 <img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created two virtual machines to monitor traffic between eachother. The first virtual machine was a windows machine and the second virtual machine was a linux machine. I used RDP(Remote Desktop Protocol) and SSH(Secure Shell) to communicate between the two machines.
+I created two virtual machines to monitor traffic between eachother. The first virtual machine was a windows 10 machine and the second virtual machine was a linux machine. I used RDP(Remote Desktop Protocol) and SSH(Secure Shell) to communicate between the two machines.
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h2>Setting up environment </h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I used Wireshark to monitor traffic to monitor packets. For example, I used the ICMP(Internet Control Message Protocol) to monitor echo requests between both of my machines.
 </p>
 <br />
 
