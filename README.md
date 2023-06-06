@@ -42,9 +42,9 @@ I created two virtual machines first one withWindows 10 and the seocnd one with 
 </p>
 <br />
 
-<h2>Setting up environment </h2>
+<h2>Environment setup</h2>
 <p>
-I used Wireshark to monitor traffic to monitor packets. For example, I used the ICMP(Internet Control Message Protocol) to monitor echo requests between both of my machines.
+Before starting the lab I had to installed Wireshark. Once Wireshark was downloaded I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests. After viewing one ping request I sent a continous ping request to the Ubuntu machine.
 </p>
 <br />
 
@@ -52,9 +52,9 @@ I used Wireshark to monitor traffic to monitor packets. For example, I used the 
 <img src="https://i.imgur.com/SDL7FsW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<h2>Blocking ports wiht Azure firewall</h2>
+<h2>Blocking inbound ports with port security rules</h2>
 <p>
-The next step of my project was to block contious echo requests through Azure firewall. I did this by going to the Networking section of my second virtual machine which enabled me to change the inbound port rules for my machine. When changing the inbound port rules you are also able to change the priority of the rule which determines which rules are processed first.
+The next step of my project was to stop the continous ping requests from my windows machine. I adjusted the inbound port rules for my Ubuntu machine via the Network Security Group and I denied traffic from the ICMP port. After observving the ping requests time out because of the port rules I changed the rules again changed the settings to allow ping requests again.
 </p>
 <img src="https://i.imgur.com/vbtVvOi.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
