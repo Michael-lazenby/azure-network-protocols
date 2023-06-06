@@ -69,7 +69,7 @@ I used nslookup to send a DNS query to google and observed the response through 
 <h2>Alternative method to filter ports via Wireshark</h2>
 <p>
  I also learned a different method to filter ports in Wireshark. The other way to filter ports is by typing the network protocol and the port you are wanting to filter. I have listed examples below:
+</p>
  </br>
 - tcp.port == 22
 - udp.port == 53
-</p>
