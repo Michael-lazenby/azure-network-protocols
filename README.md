@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h1>Lab steps </h1>
 <h2>Creating virtual machines</h2>
 <p>
- I created two virtual machines first one with Windows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
+ I created two virtual machines one with Windows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
 </p>
 <img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
