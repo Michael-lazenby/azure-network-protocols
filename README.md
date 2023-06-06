@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Used SSH to gain access to the Ubuntu machine and created a new directory
 - Obsereved DNS and RDP traffic through Wireshark
 
-<h1>Lab steps </h1>
+<h1>Lab Summary</h1>
 <h2>Creating virtual machines</h2>
 <p>
  I created two virtual machines one with Windows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
@@ -43,7 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h2>Environment setup</h2>
+<h2>Wireshark installation and observation</h2>
 <p>
 Before starting the lab I had to install Wireshark. Once Wireshark was installed I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests to the Ubuntu VM. After viewing one ping request I sent a continous ping request to the Ubuntu VM.
 </p>
