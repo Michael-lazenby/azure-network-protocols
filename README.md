@@ -39,13 +39,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created two virtual machines first one withWindows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
+I created two virtual machines first one with Windows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
 </p>
 <br />
 
 <h2>Environment setup</h2>
 <p>
-Before starting the lab I had to installed Wireshark. Once Wireshark was downloaded I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests. After viewing one ping request I sent a continous ping request to the Ubuntu machine.
+Before starting the lab I had to installed Wireshark. Once Wireshark was downloaded I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests to the Ubuntu VM. After viewing one ping request I sent a continous ping request to the Ubuntu VM.
 </p>
 <br />
 
@@ -55,7 +55,7 @@ Before starting the lab I had to installed Wireshark. Once Wireshark was downloa
 <br />
 <h2>Blocking inbound ports with port security rules</h2>
 <p>
-The next step of my project was to stop the continous ping requests from my windows machine. I adjusted the inbound port rules for my Ubuntu machine via the Network Security Group and I denied traffic from the ICMP port. After observving the ping requests time out because of the port rules I changed the rules again changed the settings to allow ping requests again.
+The next step of my project was to stop the continous ping requests from my windows VM. I did this by adjusting the inbound port rules for my Ubuntu VM via the Network Security Group settings and I denied traffic from the ICMP port. After observving the ping requests time out because of the changes I to the inbound port rules I changed the settings back to allow inbound traffic from ICMP.
 </p>
 <img src="https://i.imgur.com/vbtVvOi.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
