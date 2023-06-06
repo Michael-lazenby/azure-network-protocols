@@ -63,5 +63,4 @@ The next step of my project was to block contious echo requests through Azure fi
 <br />
 
 <p>
-<img src="https://i.imgur.com/UB7QZNv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
