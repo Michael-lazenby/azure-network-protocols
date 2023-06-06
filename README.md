@@ -45,7 +45,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Environment setup</h2>
 <p>
-Before starting the lab I had to installed Wireshark. Once Wireshark was downloaded I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests to the Ubuntu VM. After viewing one ping request I sent a continous ping request to the Ubuntu VM.
+Before starting the lab I had to installed Wireshark. Once Wireshark was installed I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests to the Ubuntu VM. After viewing one ping request I sent a continous ping request to the Ubuntu VM.
 </p>
 <br />
 
