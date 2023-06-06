@@ -50,6 +50,7 @@ I used Wireshark to monitor traffic to monitor packets. For example, I used the 
 </p>
 <br />
 <h2>Blocking ports wiht Azure firewall</h2>
+<img src="https://i.imgur.com/vbtVvOi.png" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 The next step of my project was to block contious echo requests through Azure firewall. I did this by going to the Networking section of my second virtual machine which enabled me to change the inbound port rules for my machine. When changing the inbound port rules you are also able to change the priority of the rule which determines which rules are processed first.
 </p>
