@@ -59,7 +59,7 @@ The next step of my project was to block contious echo requests through Azure fi
 <h3>Connecting with SSH</h3>
 <img src="https://i.imgur.com/4RHnH8G.png" width="80%" alt="Disk Sanitization Steps"/>
 <h3>DNS traffic monitoring</h3>
-<img src=:"https://i.imgur.com/UB7QZNv.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UB7QZNv.png" width="80%" alt="dns"/>
 <br />
 
 <p>
