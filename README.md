@@ -58,7 +58,12 @@ The next step of my project was to block contious echo requests through Azure fi
 <p>
 <img src="https://i.imgur.com/vbtVvOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h2>Other Network observations</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next step of my project was to block contious echo requests through Azure firewall. I did this by going to the Networking section of my second virtual machine which enabled me to change the inbound port rules for my machine. When changing the inbound port rules you are also able to change the priority of the rule which determines which rules are processed first.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/vbtVvOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
