@@ -36,8 +36,7 @@ In this project, I observed various network traffic to and from Azure Virtual Ma
 <h1>Lab Summary</h1>
 <h2>Creating virtual machines</h2>
 <p>
- I created two virtual machines one with Windows 10 and the seocnd one with Ubuntu. After creating both virtual machines I made sure they were both on the same network via Network Watcher.
-</p>
+This lab required me to use two virtual machines, one with Windows 10 and another with Ubuntu. I used Azure Network Watcher to confirm both of the VMs were connected to the same network.</p>
 <img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
@@ -45,7 +44,7 @@ In this project, I observed various network traffic to and from Azure Virtual Ma
 
 <h2>Wireshark installation and observation</h2>
 <p>
-Before starting the lab I had to install Wireshark. Once Wireshark was installed I was able to observe network traffic and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and was able to view traffic between both of my virtual machines when I sent ping requests to the Ubuntu VM. After viewing one ping request I sent a continous ping request to the Ubuntu VM.
+Before I started the lab I installed Wireshark. I observed network traffic with Wireshark, and I was also able to filter ports by using the filter bar. For example, I filtered ICMP(Internet Control Message Protocol) and viewed traffic between my virtual machines when I sent ping requests to the Ubuntu VM. After sending one ping request I sent a continuous ping request to the Ubuntu VM.
 </p>
 <br />
 
