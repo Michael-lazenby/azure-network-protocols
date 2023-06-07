@@ -55,8 +55,7 @@ Before starting the lab I had to install Wireshark. Once Wireshark was installed
 <br />
 <h2>Blocking inbound ports with port security rules</h2>
 <p>
-The next step of my project was to stop the continous ping requests from my windows VM. I did this by adjusting the inbound port rules for my Ubuntu VM via the Network Security Group settings and I denied traffic from the ICMP port. After observing the ping requests time out because of the changes I to the inbound port rules I changed the settings back to allow inbound traffic from ICMP.
-</p>
+The next step of my project was to stop the continuous ping requests from my Windows VM. I did this by adjusting the inbound port rules for my Ubuntu VM via the Network Security Group settings, and I denied traffic from the ICMP port. This allowed me to observe the ping requests timing out, and I didn't receive a response from the VM. </p>
 <img src="https://i.imgur.com/vbtVvOi.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <h2>Other port practice</h2>
@@ -66,19 +65,17 @@ I connected to the Ubuntu VM using SSH. While connected to the Ubuntu I created 
 <img src="https://i.imgur.com/4RHnH8G.png" width="80%" alt="Disk Sanitization Steps"/>
 <h3>DNS traffic monitoring</h3>
 <p>
-I used nslookup to send a DNS query to google and observed the response through wireshark. I made a DNS query to google and recieved a response containing an IPv6 and IPv4 addresses.
-</p>
+I used nslookup to send a DNS query to Google and observed the response through Wireshark. I made a DNS query to Google and received a response containing Google's IPv6 and IPv4 addresses.</p>
 <img src="https://i.imgur.com/UB7QZNv.png" width="80%" alt="dns"/>
 
 <br />
 <h2>Alternative method to filter ports via Wireshark</h2>
 <p>
- I also learned a different method to filter ports in Wireshark. The other way to filter ports is by typing the network protocol and the port you are wanting to filter. I have listed examples below:
-</p>
+I also learned a different method to filter ports in Wireshark. The other way to filter ports is by typing the network protocol and the port you are trying to filter. I have listed examples below:</p>
 
 - tcp.port == 22
 - udp.port == 53
 
 <br />
 <h2>Conclusion</h2>
-<p> Overall this lab was insightful because it allowed me to visualize network traffic through different protocols. It allowed me to tinker with different settings and gain hands on experience. It is important to read how network protocols work but being get hands on expierience reinforces the concepts I have been learning about. </p>
+<p> Overall this lab was insightful because it allowed me to visualize network traffic through different protocols. It allowed me to tinker with different settings and gain hands-on experience. It is important to read how network protocols work, but the hands-on experience reinforces the concepts I have been learning about. </p>
