@@ -60,7 +60,7 @@ The next step of my project was to stop the continuous ping requests from my Win
 <h2>Other port practice</h2>
 <h3>Connecting with SSH</h3>
 <p>
-I connected to the Ubuntu VM using SSH. While connected to the Ubuntu I created a new directory using the mkdir command and added a file to the directory using the touch command. 
+I connected to the Ubuntu VM using SSH. While connected to the Ubuntu VM I created a new directory using the mkdir command and added a file to the directory using the touch command. 
 <img src="https://i.imgur.com/4RHnH8G.png" width="80%" alt="Disk Sanitization Steps"/>
 <h3>DNS traffic monitoring</h3>
 <p>
