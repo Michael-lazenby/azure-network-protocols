@@ -64,7 +64,7 @@ I connected to the Ubuntu VM using SSH. While connected to the Ubuntu VM I creat
 <img src="https://i.imgur.com/4RHnH8G.png" width="80%" alt="Disk Sanitization Steps"/>
 <h3>DNS traffic monitoring</h3>
 <p>
-I used nslookup to send a DNS query to Google and observed the response through Wireshark. I made a DNS query to Google and received a response containing Google's IPv6 and IPv4 addresses.</p>
+I used nslookup to send a DNS request to Google. Google's DNS server responded with IPv6 and IPv4 addresses .</p>
 <img src="https://i.imgur.com/UB7QZNv.png" width="80%" alt="dns"/>
 
 <br />
