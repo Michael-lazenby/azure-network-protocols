@@ -78,3 +78,7 @@ I used nslookup to send a DNS query to google and observed the response through 
 
 - tcp.port == 22
 - udp.port == 53
+
+<br />
+<h2>Conclusion</h2>
+<p> Overall this lab was insightful because it allowed me to visualize network traffic through different protocols. It allowed me to tinker with different settings and gain hands on experience. It is important to read how network protocols work but being get hands on expierience reinforces the concepts I have been learning about. </p>
