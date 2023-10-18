@@ -34,11 +34,6 @@ In this project, I observed various network traffic to and from Azure Virtual Ma
 - Obsereved DNS and RDP traffic through Wireshark
 
 <h1>Lab Summary</h1>
-<h2>Creating virtual machines</h2>
-<p>
-This lab required me to use two virtual machines, one with Windows 10 and another with Ubuntu. I used Azure Network Watcher to confirm both of the VMs were connected to the same network.</p>
-<img src="https://i.imgur.com/YK94SIh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <br />
 
